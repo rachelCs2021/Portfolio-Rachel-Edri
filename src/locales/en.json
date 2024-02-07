@@ -1,0 +1,38 @@
+{
+  "main": {},
+  "navigation": {
+    "homePage": "HOME",
+    "about": "ABOUT",
+    "experience": "EXPERIENCE",
+    "skills": "SKILLS",
+    "projects": "PROJECTS",
+    "contact": "CONTACT"
+  },
+  "home": {
+    "wellcome": "WELLCOME TO MY WORLD",
+    "name": "Hi, I'm Rachel Edri",
+    "role": "Full Stach Developer - FrontEnd"
+  },
+  "about": {
+    "title": "ABOUT ME",
+    "aboutme": "I'm Rachel, a passioname full-stack developer.\n After high school, I followed my dreams and studied software engineering and development. \n Finally, I could use my logical side to code and my creative side to design. \n These days my time is spent coding, designing, learning and researching. \n When I'm not in front of my computer, you can catch me engaging in sport, listening to music and cook. \n Cool, right?"
+  },
+  "experience": {
+    "title": "EXPERIENCE",
+    "subtitle": "Experience is not just about what you have done, but also about what you have learned and how you have grown."
+  },
+  "skills": {
+    "title": "SKILLS",
+    "subtitle": "I enjoy turning complex problems into simple and beautiful code ."
+  },
+  "projects": {
+    "title": "MY LATES PROJECTS",
+    "subtitle": "See full projects cases on Github"
+  },
+  "contact": {
+    "title": "CONTACT ME",
+    "subtitle": "I'm availble to work full time. Contact me:",
+    "phone": "PHONE",
+    "email": "EMAIL"
+  }
+}

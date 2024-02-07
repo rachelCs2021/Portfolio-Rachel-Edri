@@ -1,0 +1,13 @@
+{
+  "main": {
+  
+  },
+  "navigation": {
+    "homePage": "דף הבית",
+    "about": "עלי",
+    "experience": "נסיון",
+    "skills": "כישורים",
+    "projects": "פרויקטים",
+    "contact": "יצירת קשר"
+  }
+}
