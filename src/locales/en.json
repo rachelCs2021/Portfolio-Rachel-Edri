@@ -33,6 +33,10 @@
     "title": "CONTACT ME",
     "subtitle": "I'm availble to work full time. Contact me:",
     "phone": "PHONE",
-    "email": "EMAIL"
+    "email": "EMAIL",
+    "y-name": "Your Name",
+    "y-email": "Your EmailYour Email",
+    "y-subject": "Write a Subject",
+    "y-message": "Write your Message"
   }
 }

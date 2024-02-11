@@ -1,40 +1,47 @@
 import { createRouter, createWebHashHistory } from "vue-router";
+import Main from "../layouts/DefaultLayout.vue"
+import { HomePage, AboutPage, experiencePage, skillsPage, projectsPage, contactPage } from "../pages"
 
 const routes = [
   {
+    path: "/",
+    name: "Main",
+    component: Main,
+  },
+  {
     path: "/home",
     name: "Home",
-    component: () => import("@/pages/HomePage.vue"),
+    component: HomePage,
   },
   {
     path: "/about",
     name: "About",
-    component: () => import("@/pages/AboutPage.vue"),
+    component: AboutPage,
   },
   {
     path: "/experience",
     name: "Experience",
-    component: () => import("@/pages/ExperiencePage.vue"),
+    component: experiencePage,
   },
   {
     path: "/skills",
     name: "Skills",
-    component: () => import("@/pages/SkillsPage.vue"),
+    component: skillsPage,
   },
   {
     path: "/projects",
     name: "Projects",
-    component: () => import("@/pages/ProjectsPage.vue"),
+    component: projectsPage,
   },
   {
     path: "/contact",
     name: "Contact",
-    component: () => import("@/pages/ContactPage.vue"),
+    component: contactPage,
   },
 ];
 
 const router = createRouter({
-  history: createWebHashHistory(process.env.BASE_URL),
+  history: createWebHashHistory(),
   routes,
 });
 

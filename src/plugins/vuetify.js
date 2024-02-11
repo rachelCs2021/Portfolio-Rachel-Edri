@@ -10,10 +10,12 @@ import * as labs from "vuetify/labs/components";
 import { VBtn } from "vuetify/components/VBtn";
 import { VTextField } from "vuetify/lib/components/index.mjs";
 
+import * as components from 'vuetify/components'
+import * as directives from 'vuetify/directives'
+
 export default createVuetify({
-  components: {
-    ...labs,
-  },
+  components,
+  directives,
   theme: {
     themes: {
       light: {

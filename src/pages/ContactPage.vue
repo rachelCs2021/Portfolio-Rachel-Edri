@@ -16,7 +16,7 @@
           hide-details
           :counter="10"
           class="my-4"
-          label="Your Name"
+          :label="t('contact.y-name')"
           variant="outlined"
           v-model="state.name"
           :rules="state.nameRules"
@@ -26,7 +26,7 @@
           required
           hide-details
           class="my-4"
-          label="Your Email"
+          :label="t('contact.y-email')"
           variant="outlined"
           v-model="state.email"
           :rules="state.emailRules"
@@ -37,15 +37,15 @@
           hide-details
           class="my-4"
           variant="outlined"
-          :rules="subjectRules"
+          :rules="state.subjectRules"
           v-model="state.subject"
-          label="Write a Subject"
+          :label="t('contact.y-subject')"
         ></v-text-field>
 
         <v-textarea
           class="my-4"
           variant="outlined"
-          label="Write your Message"
+          :label="t('contact.y-message')"
         ></v-textarea>
 
         <v-btn>SUBMIT</v-btn>
